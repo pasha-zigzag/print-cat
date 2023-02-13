@@ -1,0 +1,17 @@
+{
+    "name": "pasha-zigzag/print-cat",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "PrintCat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel Zagainov"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    }
+}
