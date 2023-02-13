@@ -1,6 +1,6 @@
 {
     "name": "pasha-zigzag/print-cat",
-    "type": "package",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "PrintCat\\": "src/"

@@ -47,7 +47,7 @@ EOL;
 　　　／｀ヽ _/\__'
 EOL;
 
-	public function printRandom(): string
+	public function printRandom(): void
 	{
 		$number = rand(1, 4);
 		$result = self::DEFAULT_CAT;
@@ -64,6 +64,6 @@ EOL;
 				break;
 		}
 
-		return $result;
+		echo $result;
 	}
 }

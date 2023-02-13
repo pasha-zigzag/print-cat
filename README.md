@@ -17,5 +17,5 @@ $ composer require pasha-zigzag/print-cat
 ```php
 <?php
 $processor = new PrintCat();
-echo $processor->printRandom();
+$processor->printRandom();
 ```
